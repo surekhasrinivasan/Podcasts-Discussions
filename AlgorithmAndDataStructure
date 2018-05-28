@@ -1,0 +1,69 @@
+5/24 Discussions - Algorithms and Data Structures
+
+Find 2 HackerRank Algorithms under the Problem Solving skill area (Algorithm or Data Structure)
+
+Medium Algorithm link:
+https://www.hackerrank.com/challenges/climbing-the-leaderboard/problem
+
+What is the Algorithm asking:
+
+Alice is playing an arcade game and wants to climb to the top of the leaderboard. The game uses Dense Ranking, so its leaderboard works like this:
+The player with the highest score is ranked number 1 on the leaderboard.
+Players who have equal scores receive the same ranking number, and the next player(s) receive the immediately following ranking number.
+In this problem, we need to track her ranking as she plays.
+
+Inputs:
+
+The number of players on the leaderboard which is integer 'n'
+The next line contains an array of space-separated integers scores[i], the leaderboard scores in decreasing order.
+The next line contains an integer,'m', denoting the number games Alice plays.
+The last line contains  space-separated integers in the form of an array, which is Alice’s game scores.
+
+For example Input:
+7
+100 100 50 40 40 20 10
+4
+5 25 50 120
+
+Outputs:
+
+The output is to determine Alice's rank  as she progresses up the leaderboard.
+For example, the four players on the leaderboard have high scores of 100, 90, 90, and 80. Those players will have ranks 1, 2, 2, and 3, respectively. If Alice's scores are 70, 80  and 105, her rankings after each game are 4th, 3r and 1st.
+
+Output for the above example should be :
+6 4 2 1
+
+The problem in your own words:
+
+The problem is about comparing the players scores with Alice scores and keep track of the rank as she progresses up the leaderboard.
+
+
+Hard Algorithm link:
+https://www.hackerrank.com/challenges/maximum-subarray-sum/problem
+
+What is the Algorithm asking:
+
+Given an n-element array of integers, a, and an integer, m, determine the maximum value of the sum of any of its subarrays modulo m.
+
+Inputs:
+
+The first line contains an integer q, the number of queries to perform.
+The next  q pairs of lines are as follows:
+The first line contains two space-separated integers n and m, the length of a and the modulo divisor.
+The second line contains n space-separated integers a[i].
+
+Sample Input
+
+1
+5 7
+3 3 9 9 5
+
+Outputs:
+
+For each query, print the maximum value of subarray sum % m on a new line.
+
+Output for the above sample input is 6
+
+The problem in your own words:
+
+The problem is about finding the sum of an array which is the sum of its elements and determine the maximum value of the sum of any of its subarrays modulo m.
