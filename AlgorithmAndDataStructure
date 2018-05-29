@@ -67,3 +67,29 @@ Output for the above sample input is 6
 The problem in your own words:
 
 The problem is about finding the sum of an array which is the sum of its elements and determine the maximum value of the sum of any of its subarrays modulo m.
+
+Come up with the definition for the following terms and consider a real life example of the concept.
+
+Algorithm
+
+An algorithm is a list of step-by-step instructions used in solving problems or performing tasks. One of the examples of an algorithm is a cooking recipe which is a list of instructions used to perform a task! For example, if you were to follow the algorithm to create brownies from a box mix, you would follow the three to five step process written on the back of the box.
+
+One of the attributes of an algorithm is that since it is a list of instructions, there is some step-by-step process that occurs in order. Very often, the order that the steps are given in can make a big difference! Suppose we were to reorder the steps of the recipe on the back of the brownie box and told somebody to put the brownies in the oven for 22 minutes before we told them to preheat the oven. That would be silly! That is why the order of the steps is very important.
+
+Data Structure:
+
+A data structure refers to methods for organizing and storing data. Some of the data structure types include the array, the file, the record, the table, the tree, and so on. Any data structure is designed to organize data to suit a specific purpose so that it can be accessed and worked with in appropriate ways.
+Example for a queue data structure is a line in a store where the first customer in the line is served first. That is First In First Out.
+Example for a Hashtable data structure can be a dictionary that allows you to look up definitions (values) by keys (words sorted in alphabetical order).
+
+Function:
+
+A function is a group of statements that together perform a task. A function declaration tells the compiler about a function's name, return type, and parameters.
+
+The applications of functions are everywhere in “real life”. For example, driving car for a simple road trip. You can use a function to estimate how much fuel you’ll need, how long the trip will be, how much money you’ll need for gas and other expenses, when you might need to stop for a break, etc. You might want to choose between two alternative routes, one of which has more tolls and the other which has more mileage. You could use functions to compare the two routes.
+
+Method:
+
+In object-oriented programming, a method is a programmed procedure that is defined as part of a class and included in any object of that class. A class can have more than one method. A method in an object can only have access to the data known to that object, which ensures data integrity among the set of objects in an application. A method can be reused in multiple objects. Method Refers to the action that object can perform.
+
+For example consider we have a Class of Cars under which has Santro Xing, Alto and WagonR represents individual objects. In this context each Car Object will have its own, Model,Year of Manufacture, Colour, Top Speed, Engine Power etc.,which form Properties of the Car class and the associated actions i.e., object functions like Start, Move, Stop form the Methods of Car class.
