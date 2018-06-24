@@ -1,0 +1,63 @@
+Discussions- C#, Algorithm & Data Structures
+
+Find 2 articles or podcasts:
+
+Item 1 - C# or web scraping
+
+URL: https://www.entrepreneur.com/article/296906
+
+Analysis: The above link lead to an article named “Website Scraping Is an Easy Growth Hack You Should
+Try”.
+
+In this article the author explains what is Web scraping, which is a method of extracting data from a
+website. He talks about its uses which includes building up businesses, to determine where the
+competitors are setting their prices.
+
+In few lines, there is an explanation of how big Companies like Bidder's Edge and eBay involved in
+web scraping and were brought to court, but the court decided that screen scraping was Ok but some basic
+tips to keep in mind include looking out for copyrights, not being in violation of privacy laws or terms
+of use, and (like in the case above), doesn’t burden the host’s service.
+
+The article also explain how actual scraping is done. For starters, one of the most common uses is
+setting up a robot.txt file. These essentially tell a web crawler what to look for on a page. For example,
+if a sneaker reseller get to know a new Jordan just released, he can then tell a robot.txt to go through
+other stores (eBay, StockX, etc.) and pick out terms such as “Jordan,” “Air Jordan” and what not to
+aggregate the price.
+
+The article ends up giving some details about the future of web-scraping. The capabilities of using web
+scraping in data mining could be endless. In fact, the growth of collecting big data has spawned how AI
+can be used to assess the relationship between data points. And as most of us have heard, AI is changing
+the way we look at marketing in a significant manner.
+
+
+Item 2 - Algorithm / Data Structure
+
+URL: https://www.theguardian.com/science/2013/jul/01/how-algorithms-rule-world-nsa
+
+Analysis : The above link lead to an article named “How algorithms rule the world”.
+
+This article explains in today’s world how the Algorithm plays a very important role in everybody’s daily
+life. The use of algorithms in policing is one example of their increasing influence on our lives. From
+dating websites and City trading floors, through to online retailing and internet searches, algorithms are
+increasingly determining our collective futures. "Bank approvals, store cards, job matches and more all
+run on similar principles," says Ball. "The algorithm is the god from the machine powering them all, for
+good or ill."
+
+
+Come up with the definition for the following terms
+Data Structure
+Algorithm
+Computer Science
+Logic
+
+Data structure is a data organization and storage of units of data within larger data sets that enables
+efficient access and modification.
+
+Algorithm is a step by step method of solving a problem. It can be a simple process, such as adding two
+numbers or complex, such as playing a compressed video file.
+
+Computer Science is the study of both computer hardware and software designs, it has many branches like
+programming, software engineering, computer graphics and artificial intelligence.
+
+Logic is a proper reasonable way of thinking about or understanding something to perform a specified task.
+Logic attempts to distinguish good reasoning from bad reasoning.
