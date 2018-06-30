@@ -1,0 +1,107 @@
+Research and implement the following Data Structures in either C# or Java:
+
+Queue:
+
+A queue is an abstract data type that maintains the order in which elements were added to it, allowing the oldest elements to be removed from the front and new elements to be added to the rear. This is called a First-In-First-Out (FIFO) data structure because the first element added to the queue (i.e., the one that has been waiting the longest) is always the first one to be removed.
+
+A basic queue has the following operations:
+
+Enqueue: add a new element to the end of the queue.
+
+Dequeue: remove the element from the front of the queue and return it.
+
+Queue Class
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Collections;
+
+namespace queue
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Queue Q = new Queue();
+
+            Q.Enqueue(1);//Add elements to Queue
+            Q.Enqueue(2);
+            Q.Enqueue(3);
+
+            Console.WriteLine("Elements in the Queue: ");
+
+            foreach (int i in Q)//Display the elements of the queue
+                Console.WriteLine(i);
+
+            Console.WriteLine("First element in the queue: " + Q.Peek());//returns first element in the queue
+
+            Console.WriteLine("Count of the elements in the queue: " + Q.Count);
+
+            Console.WriteLine(Q.Dequeue()); //returns the first element and removes the referral to the element thereby making the second element as the first
+
+            Console.WriteLine("Count of the elements after Dequeue: " + Q.Count);
+        }
+    }
+}
+
+
+Implementation:
+
+Queues are similar to stacks. Queues are used for sequential processing when we remove an element from queue the first element added is removed first, it is the reverse of stack. Queue follows FIFO.
+
+Implementing a Queue using two stacks
+
+Stack follows LIFO principle.
+
+Methods
+
+isEmpty - checks if the stack is empty
+size - number of elements in the stack
+push - push the element to the top of the stack
+pop - removes the elements from top of the stack
+peek - returns the top element in the stack but do not remove
+
+Queue is FIFO principle
+
+Methods:
+
+isEmpty - checks if the queue is empty
+size - the number of elements in the queue
+enqueue - adds element to the back of the queue
+dequeue - removes the element which is in front of the queue
+front - returns the front element but do not remove
+
+In order to implement a queue, we need to internally reverse the order of the elements of the stack. We can do this by using another stack.
+
+We can start by using all the above mentioned queue methods:
+
+First check if two stacks are empty
+
+isEmpty method returns true if both the stacks are empty.
+	return stack1.isEmpty && stack2.isEmpty
+
+size method returns the number of elements in the queue which is the sum of stack1.size and stack2.size
+	return stack1.size + stack2.size
+
+Using Enqueue method we push the elements to the first stack
+enqueue(Element e)
+	stack1.push(e)
+
+dequeue method - checks if the stack2 is empty then push elements that pop out of stack1 and returns the queue elements
+	if(stack2.isEmpty)
+		while(!stack1.isEmpty)do
+			stack2.push(stack1.pop)
+		EndWhile
+	Endif
+	return stack2.pop
+
+front method returns the front element but do not remove
+	if(stack2.isEmpty)
+		while(!stack1.isEmpty)do
+			stack2.push(stack1.pop)
+		EndWhile
+	Endif
+	return stack2.peek
